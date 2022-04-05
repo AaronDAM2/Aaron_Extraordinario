@@ -10,7 +10,7 @@ import java.util.logging.Logger;
  *
  * @author usuario
  */
-public class main {
+public class Ej1 {
 
     
     public static void main(String[] args)
@@ -25,7 +25,7 @@ public class main {
                 f.createNewFile();
             } catch (IOException ex)
             {
-                Logger.getLogger(main.class.getName()).log(Level.SEVERE, null, ex);
+                Logger.getLogger(Ej1.class.getName()).log(Level.SEVERE, null, ex);
             }
         }
         
